@@ -31,7 +31,7 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-# HALCON引用
+# HALCON引用目录
 INCLUDEPATH += $$(HALCONROOT)/include
 INCLUDEPATH += $$(HALCONROOT)/include/halconcpp
 INCLUDEPATH += $$(HALCONROOT)/include/hdevengine
